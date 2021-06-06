@@ -41,6 +41,12 @@
     @include media-S {
       width: 280px;
     }
+    transition: 0.4s;
+
+    &:hover {
+      border-radius: 5px;
+      background-color: #eeebeb;
+    }
   }
 
   &__form {

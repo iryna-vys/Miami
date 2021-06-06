@@ -28,8 +28,16 @@
     height: 256px;
     border-radius: 8px;
     object-fit: cover;
+    cursor: pointer;
     @include media-S {
       height: 131px;
+    }
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0;
     }
   }
 
